@@ -1,0 +1,16 @@
+variable "database_name" {}
+variable "vpc_id" {}
+variable "env" {}
+variable "region" {}
+variable "allowed_cidrs" {}
+variable "engine" {}
+variable "engine_version" {}
+variable "instance_class" {}
+variable "storage_type" {}
+variable "db_username" {}
+variable "db_password" {}
+variable "db_port" {}
+variable "publicly_accessible" {}
+variable "deletion_protection" {}
+variable "allocated_storage" {}
+variable "private_subnets_ids" {}
